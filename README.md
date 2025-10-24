@@ -31,22 +31,3 @@ python orga_nice.py
 ```
 
 Select a folder → preview → confirm.
-
-**Packaging (quick)**
-Use PyInstaller and include audio assets with `--add-data` (see PyInstaller docs).
-
-**Quick dev notes**
-
-* Audio safely falls back to a dummy driver if initialization fails.
-* Edit the `formats` dict to add/change categories.
-* `moved_files` keeps changes for undo.
-
-**If something breaks**
-
-* `pygame` missing: `pip install pygame`.
-* `tkinter` missing (Linux): `sudo apt install python3-tk`.
-* Audio init error: app will continue without sound.
-
----
-
-*Done — short and focused. Tell me if you want it shorter still (one-liner) or a 2-line "Quickstart" only.*
