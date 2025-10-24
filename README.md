@@ -1,4 +1,4 @@
-# Orga-Nice (Brief)
+# Orga-Nice
 
 **What it is**
 A tiny GUI tool (Tkinter) that tidies a selected folder by moving files into categorized subfolders. Choose a single extension (e.g. `pdf`) or organize all known types at once. Includes preview, undo, dark mode, and optional audio (pygame).
